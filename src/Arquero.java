@@ -6,7 +6,8 @@ public class Arquero extends Personajes{
 
 
 
-    public Arquero(double presicion, String habilidadDistancia) {
+    public Arquero(double presicion, String habilidadDistancia, String nombre, String tipoGuerrero, int puntosVida, int nivelExperiencia) {
+        super(nombre, tipoGuerrero, puntosVida, nivelExperiencia);
         this.presicion = presicion;
         this.habilidadDistancia = habilidadDistancia;
     }

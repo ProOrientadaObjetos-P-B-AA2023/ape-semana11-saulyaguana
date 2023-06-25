@@ -4,7 +4,8 @@ public class Guerrero extends Personajes{
 
     public Guerrero() {}
 
-    public Guerrero(double fuerza, String habilidadCuerpoACuerpo) {
+    public Guerrero(double fuerza, String habilidadCuerpoACuerpo, String nombre, String tipoGuerrero, int puntosVida, int nivelExperiencia) {
+        super(nombre, tipoGuerrero, puntosVida, nivelExperiencia);
         this.fuerza = fuerza;
         this.habilidadCuerpoACuerpo = habilidadCuerpoACuerpo;
     }
